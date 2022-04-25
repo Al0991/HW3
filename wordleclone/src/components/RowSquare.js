@@ -3,7 +3,7 @@ import '../css/RowSquare.css'
 
 const RowSquare = (props) => {
     return (
-        <div className='RowSquare' id={props.letter}>{props.letter}</div>
+        <div className='RowSquare' id={props.letter + props.rowNum +props.squareNum}>{props.letter}</div>
     )
 }
 
