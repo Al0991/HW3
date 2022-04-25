@@ -1,0 +1,15 @@
+.RowSquare {
+    border-style: solid;
+    border-color: #d3d6da;
+    border-width: 2px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #878a8c;
+    text-transform: uppercase;
+}
