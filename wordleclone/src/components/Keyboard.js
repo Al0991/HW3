@@ -10,9 +10,9 @@ const Keyboard = (props) => {
     const row3 = ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "⌫"]
     return (
         <div className='Keyboard'>
-            <KeyboardRow letters = {row1}/>
-            <KeyboardRow letters = {row2}/>
-            <KeyboardRow letters = {row3}/>
+            <KeyboardRow letters = {row1} handleClick={props.handleClick}/>
+            <KeyboardRow letters = {row2} handleClick={props.handleClick}/>
+            <KeyboardRow letters = {row3} handleClick={props.handleClick}/>
         </div>
     )
 }

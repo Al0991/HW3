@@ -4,7 +4,7 @@ import '../css/KeyboardRow.css'
 const KeyboardRow = (props) => {
     const row = props.letters.map((letter, index) => {
         return(
-            <button key={index} className='letter' id={letter}>{letter}</button>
+            <button key={index} className='letter' id={letter} onClick={() => props.handleClick(letter)}>{letter}</button>
         )    
     })
     return( 
