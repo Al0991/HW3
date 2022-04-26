@@ -6,11 +6,13 @@
 }
 
 .letter{
-    background-color: #d3d6da;
-    padding: 10px;
+    background-color: #5e666a;
+    padding: 11px;
     margin: 3px;
     border-radius: 5px;
+    border: 0;
 
+    font: clear-sans;
     font-weight: 500;
     font-size: 15px;
 }

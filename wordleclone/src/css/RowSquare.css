@@ -7,8 +7,10 @@
     align-items: center;
     justify-content: center;
     margin: 5px;
+    display: inline-flex;
 
-    font-size: 20px;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 32px;
     font-weight: bold;
     color: #878a8c;
     text-transform: uppercase;
