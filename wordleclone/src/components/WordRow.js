@@ -49,7 +49,7 @@ const WordRow = (props) => {
                     document.getElementById(props.guess[guessCounter] + props.rowNum + squareNums[guessCounter]).style.borderColor = "gray";
                 }
                 else{
-                    console.log("you fucking broke it")
+                    console.log("This should never happen")
                 }
             }
         }

@@ -5,16 +5,17 @@ import Keyboard from './Keyboard';
 const GameContainer = () => {
 
     let rowNums = ["1", "2", "3", "4", "5", "6"]
-    let youWon = false
-    
+    let youWon = false    
 
     const [guess, setGuess] = useState('') //current guess
     const [guessNum, setGuessNum] = useState(1) //which number guess
     const [guessArr, updateGuessArr] = useState(['', '', '', '', '', ''])
     const [submittedArr, updateSubmitArr] = useState([false, false, false, false, false, false])
-    
 
     const correctWord = "CRAAN"
+    
+    if(guess === correctWord)
+        youWon = true
 
     const handleClick = (letter) => {
         if(guess.length < 5 && letter !== '⌫' && letter !== 'ENTER' && youWon === false){ //add letter
@@ -68,4 +69,4 @@ const GameContainer = () => {
   );
 }
 
-export default GameContainer;
+export default GameContainer
